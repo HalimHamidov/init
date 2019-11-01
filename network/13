@@ -1,0 +1,1 @@
+host 192.168.50.11 | grep 'name'| awk '{print $5}' 
