@@ -1,13 +1,13 @@
-//3rd line IP = 217.67.187.49 is the IP address of the device that makes the link between local network and the outside world
-//https://ru.wikipedia.org/wiki/NAT Network address translation
-//il-h5% traceroute slash16.org
-//traceroute: Warning: slash16.org has multiple addresses; using 13.33.242.74
-//traceroute to slash16.org (13.33.242.74), 64 hops max, 52 byte packets
-// 1  192.168.20.1 (192.168.20.1)  1.311 ms  0.991 ms  0.902 ms
-// 2  192.168.2.9 (192.168.2.9)  0.285 ms  0.300 ms  0.203 ms
-// 3  217-67-187-49.in-addr.mastertelecom.ru (217.67.187.49)  2.603 ms  2.531 ms  3.475 ms
-// 4  mail.neoresurs.ru (217.67.176.130)  0.585 ms  0.549 ms  0.468 ms
-// 5  217-67-176-205.in-addr.mastertelecom.ru (217.67.176.205)  1.589 ms  1.570 ms  1.711 ms
-// 6  ae11-227.rt.mr.msk.ru.retn.net (87.245.253.69)  1.314 ms  1.244 ms  1.281 ms
-// 7  ae5-8.rt.rad.hki.fi.retn.net (87.245.233.174)  18.339 ms  17.699 ms  18.100 ms
-// 8  52.46.167.62 (52.46.167.62)  18.412 ms  21.669 ms  18.461 ms
+# nat 3rd line IP = 217.67.187.49 is the IP address of the device that makes the link between local network and the outside world
+#https://ru.wikipedia.org/wiki/NAT Network address translation
+traceroute slash16.org
+#traceroute: Warning: slash16.org has multiple addresses; using 13.33.242.74
+#traceroute to slash16.org (13.33.242.74), 64 hops max, 52 byte packets
+# 1  192.168.20.1 (192.168.20.1)  1.311 ms  0.991 ms  0.902 ms
+# 2  192.168.2.9 (192.168.2.9)  0.285 ms  0.300 ms  0.203 ms
+# 3  217-67-187-49.in-addr.mastertelecom.ru (217.67.187.49)  2.603 ms  2.531 ms  3.475 ms
+# 4  mail.neoresurs.ru (217.67.176.130)  0.585 ms  0.549 ms  0.468 ms
+# 5  217-67-176-205.in-addr.mastertelecom.ru (217.67.176.205)  1.589 ms  1.570 ms  1.711 ms
+# 6  ae11-227.rt.mr.msk.ru.retn.net (87.245.253.69)  1.314 ms  1.244 ms  1.281 ms
+# 7  ae5-8.rt.rad.hki.fi.retn.net (87.245.233.174)  18.339 ms  17.699 ms  18.100 ms
+# 8  52.46.167.62 (52.46.167.62)  18.412 ms  21.669 ms  18.461 ms
