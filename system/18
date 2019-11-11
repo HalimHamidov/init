@@ -1,0 +1,4 @@
+pkill ssh
+#pstree -p  
+#kill PID
+#srevice ssh stop

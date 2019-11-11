@@ -1,0 +1,3 @@
+#ls /home
+cat /etc/passwd | grep '/home/' | awk -F: '{print $1}'
+#getent  passwd | grep '/home/' | cut -d: -f1

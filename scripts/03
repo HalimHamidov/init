@@ -1,0 +1,2 @@
+echo "Init is successfully passed, thank you for your attention"
+time ls -l

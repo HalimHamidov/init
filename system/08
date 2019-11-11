@@ -1,0 +1,3 @@
+ssh-keygen
+#cat /etc/authorized_keys
+#cat /etc/ssh/

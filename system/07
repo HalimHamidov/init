@@ -1,0 +1,4 @@
+#ps aux
+cat /var/run/sshd.pid
+#pgrep -f /usr/sbin/sshd
+#service ssh status | grep 'Main PID' | awk '{print $3}'
