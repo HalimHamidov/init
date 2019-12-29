@@ -33,6 +33,18 @@ https://github.com/VBrazhnik/init/wiki/Network
 https://github.com/agavrel/42-Init
 https://github.com/acuD1/init
 
+https://github.com/Shy0for0u (Паша)
+
+system
+
+https://wiki.debian.org/ShellCommands
+
+https://www.debian.org/doc/manuals/debian-reference/debian-reference.en.pdf
+
+https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/networking_guide/sec_configuring_host_names_using_hostnamectl
+
+Exam with case tests
+https://github.com/evandjohnston/ft_alone_in_the_dark/tree/master/Beginner_Exam
 
 
 ssh apearl@192.168.56.101
@@ -84,5 +96,3 @@ iface enp0s8 inet static
 address 192.168.56.2
 netmask 255.255.255.252
 ..
-
-
